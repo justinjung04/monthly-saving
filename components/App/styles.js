@@ -1,20 +1,24 @@
 import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
-  container: {
+  view: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
   },
-  welcome: {
+  text: {
     fontSize: 20,
     textAlign: 'center',
     margin: 10,
   },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
+  button: {
+    backgroundColor: 'lightblue',
+    borderRadius: 10,
+    padding: 20,
+    margin: 10,
   },
+  data: {
+    fontWeight: 'bold'
+  }
 });
